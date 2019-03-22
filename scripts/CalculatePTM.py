@@ -14,11 +14,6 @@ import re
 
 
 
-__author__ = 'yincan' 
-__contact__ = 'yin_can@wuxiapptec.com' 
-
-
-
 def get_index(alist, name):
     
     '''
