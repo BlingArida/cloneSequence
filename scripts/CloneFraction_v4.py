@@ -78,7 +78,7 @@ if __name__ == "__main__":
         epilog=( 
             'examples:\n  %(prog)s -i clone_inital.tab [output is clone_cluster file]\n' 
             '  %(prog)s -i clone_inital.tab -d cloneIdNumber [output is CDR3 and clone_sequence file]\n\n' 
-            ' ), 
+            ), 
         formatter_class=argparse.RawTextHelpFormatter, 
     ) 
     parser.add_argument('-i', '--infile', help='The input tab file', required=True)
