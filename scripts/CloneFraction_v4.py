@@ -6,8 +6,7 @@
 
 Extract CDR3 and sequence from change-o results
 '''
-__author__ = 'yincan' 
-__contact__ = 'yin_can@wuxiapptec.com' 
+
 
 
 import os,sys
@@ -79,8 +78,7 @@ if __name__ == "__main__":
         epilog=( 
             'examples:\n  %(prog)s -i clone_inital.tab [output is clone_cluster file]\n' 
             '  %(prog)s -i clone_inital.tab -d cloneIdNumber [output is CDR3 and clone_sequence file]\n\n' 
-            'contact: {} <{}>' 
-        .format(__author__, __contact__)), 
+            ' ), 
         formatter_class=argparse.RawTextHelpFormatter, 
     ) 
     parser.add_argument('-i', '--infile', help='The input tab file', required=True)
