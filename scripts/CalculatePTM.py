@@ -146,9 +146,8 @@ if __name__ == "__main__":
         prog='CalculatePTM', 
         description='\t\tFind PTMs and Sequence', 
         epilog=( 
-            'examples:\n  %(prog)s -i clone_inital.tab [output is clone_cluster file]\n' 
-            'contact: {} <{}>' 
-        .format(__author__, __contact__)), 
+            'examples:\n  %(prog)s -i clone_inital.tab [output is clone_cluster file]\n'             
+        ), 
         formatter_class=argparse.RawTextHelpFormatter, 
     ) 
     parser.add_argument('-i', '--infile', help='The input tab file', required=True)
